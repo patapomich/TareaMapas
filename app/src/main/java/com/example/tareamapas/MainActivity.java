@@ -70,12 +70,18 @@ public class MainActivity extends AppCompatActivity {
         agregarMarcador("Jaasiel\nHermano", -17.791273, -63.201886, 1);
 
         // 2do grado (AMARILLO) - grado 2
-        agregarMarcador("Pedro", -17.7900, -63.1900, 2);
-        agregarMarcador("Ana", -17.7750, -63.1750, 2);
+        agregarMarcador("Gail\nTia", -21.518604, -64.732974, 2);
+        agregarMarcador("Margarita\nAbuela", -17.381243, -66.259033, 2);
+        agregarMarcador("Freddy\nAbuelo",-17.381683,-66.259704,2);
+        agregarMarcador("Josias\nTio",-17.381990,-66.264237,2);
+        agregarMarcador("Martha\nAbuela",-17.381964,-66.264129,2);
+        agregarMarcador("Shirley\nTia",-17.381717,-66.264084,2);
 
         // 3er grado (VERDE) - grado 3
-        agregarMarcador("Luis", -17.7700, -63.1700, 3);
-        agregarMarcador("Carmen", -17.7950, -63.1950, 3);
+        agregarMarcador("Pilar\nPrima", -17.382240, -66.264038, 3);
+        agregarMarcador("Scarlet\nPrima", -17.392625, -66.283103, 3);
+        agregarMarcador("Francisca\nBisabuela", -17.379543, -66.258078, 3);
+
     }
 
     private void agregarMarcador(String nombre, double lat, double lon, int grado) {
